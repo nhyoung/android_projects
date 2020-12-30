@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/result"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="0.5dp"
+    android:layout_height="wrap_content"
+    android:onClick="OnClickListener">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginVertical="1dp"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        >
+        <View
+            android:id="@+id/bar_blue"
+            android:background="#0000FF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <View
+            android:id="@+id/bar_red"
+            android:background="#FF0000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_blue_pct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="left"
+            android:textColor="#FFFFFF"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="center"
+            android:textColor="#FFFFFF"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_red_pct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:text="right"
+            android:textColor="#FFFFFF"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="8dp"
+            />
+
+</RelativeLayout>

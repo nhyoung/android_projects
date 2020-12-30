@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Election Results</string>
+    <string name="img_american_flag">Image of American Flag</string>
+    <string name="state">State</string>
+    <string name="bluest">Bluest</string>
+    <string name="reddest">Reddest</string>
+    <string name="sort_by">Sort by</string>
+</resources>

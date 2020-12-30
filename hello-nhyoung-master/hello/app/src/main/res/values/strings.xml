@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="button">Press Me</string>
+    <string-array name="greetings_array">
+        <item name="greeting1">Hi, my name is Nick.</item>
+        <item name="greeting2">I am looking forward to a great quarter!</item>
+    </string-array>
+</resources>

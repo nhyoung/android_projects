@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196490835563",
+    "project_id": "photogram-23468",
+    "storage_bucket": "photogram-23468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196490835563:android:fde395baabb635a5c8e32e",
+        "android_client_info": {
+          "package_name": "edu.uw.nhyoung.photogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196490835563-a20lv1dmfcrk4podqo5nahuh8hhgc8t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJRCbt-Ka45v3rWX3neqWXQWPTLJQgBAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196490835563-a20lv1dmfcrk4podqo5nahuh8hhgc8t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
