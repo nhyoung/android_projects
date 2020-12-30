@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e4cd812-2cc2-4f27-99a9-53ebf22f2f8b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1inIOSavnC0Bf5djiIMBKXKZiWv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1602985220134" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager" selected="Kotlin.PayrollKt">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="a1-kotlin-nhyoung" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.info448.kotlin.BasicsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="a1-kotlin-nhyoung" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.info448.kotlin.LocationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayrollKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="a1-kotlin-nhyoung" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.info448.kotlin.PayrollKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.PayrollKt" />
+        <item itemvalue="Kotlin.LocationKt" />
+        <item itemvalue="Kotlin.BasicsKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e4cd812-2cc2-4f27-99a9-53ebf22f2f8b" name="Default Changelist" comment="" />
+      <created>1602536897334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602536897334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom" timestamp="1602573749767">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom/1920.108.1440.877/0.23.1920.992@0.23.1920.992" timestamp="1602537648956" />
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom/1920.108.1440.877/0.23.1920.993@0.23.1920.993" timestamp="1602573749767" />
+    <state width="1878" height="268" key="GridCell.Tab.0.center" timestamp="1602573749766">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.center/1920.108.1440.877/0.23.1920.992@0.23.1920.992" timestamp="1602537648956" />
+    <state width="1878" height="268" key="GridCell.Tab.0.center/1920.108.1440.877/0.23.1920.993@0.23.1920.993" timestamp="1602573749766" />
+    <state width="1878" height="268" key="GridCell.Tab.0.left" timestamp="1602573749766">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.left/1920.108.1440.877/0.23.1920.992@0.23.1920.992" timestamp="1602537648955" />
+    <state width="1878" height="268" key="GridCell.Tab.0.left/1920.108.1440.877/0.23.1920.993@0.23.1920.993" timestamp="1602573749766" />
+    <state width="1878" height="268" key="GridCell.Tab.0.right" timestamp="1602573749767">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state width="1878" height="268" key="GridCell.Tab.0.right/1920.108.1440.877/0.23.1920.992@0.23.1920.992" timestamp="1602537648956" />
+    <state width="1878" height="268" key="GridCell.Tab.0.right/1920.108.1440.877/0.23.1920.993@0.23.1920.993" timestamp="1602573749767" />
+    <state x="630" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1602985308491">
+      <screen x="0" y="23" width="1920" height="993" />
+    </state>
+    <state x="630" y="351" key="com.intellij.ide.util.TipDialog/1920.108.1440.877/0.23.1920.992@0.23.1920.992" timestamp="1602536909653" />
+    <state x="630" y="351" key="com.intellij.ide.util.TipDialog/1920.108.1440.877/0.23.1920.993@0.23.1920.993" timestamp="1602985308491" />
+  </component>
+</project>

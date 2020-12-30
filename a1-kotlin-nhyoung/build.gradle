@@ -1,0 +1,67 @@
+//dependencies for the building script itself
+buildscript {
+    ext.kotlin_version = '1.4.10'
+
+    //where to download external libraries from
+    repositories {
+        mavenCentral()
+    }
+
+    //external libraries to load
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+//this plugin provides tasks related to Kotlin building (build, test, etc)
+// apply plugin: 'java'
+apply plugin: 'kotlin' 
+
+//java compile path is not distinct from kotlin
+sourceSets {
+    main.java.srcDirs += 'src'
+    test.java.srcDirs += 'test'
+}
+
+//where to download external libraries from
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+//external libraries to load
+dependencies {
+    compile("org.jetbrains.kotlin:kotlin-stdlib") //kotlin
+	compile("org.junit.jupiter:junit-jupiter-api:5.2.0") //test runner (jUnit 5)
+	testCompile("org.junit.jupiter:junit-jupiter-params:5.2.0")
+	testRuntime("org.junit.jupiter:junit-jupiter-engine:5.2.0")
+}
+
+test {
+	useJUnitPlatform()
+    testLogging {
+        events 'PASSED', 'FAILED', 'SKIPPED' //extra annotation for running tests
+    }
+}
+
+
+//a "runBasics" task to execute the Basics class's main method
+//execute with `gradle runMain`
+task runBasics(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath //classpath
+	main = 'edu.info448.kotlin.BasicsKt' //the class that contains the main method
+}
+
+//a "runLocation" task to execute the Location class's main method
+//execute with `gradle runDroid`
+task runLocation(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath //classpath
+	main = 'edu.info448.kotlin.LocationKt' //the class that contains the main method
+}
+
+//a "runDroid" task to execute the Droid class's main method
+//execute with `gradle runDroid`
+task runPayroll(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath //classpath
+	main = 'edu.info448.kotlin.PayrollKt' //the class that contains the main method
+}
